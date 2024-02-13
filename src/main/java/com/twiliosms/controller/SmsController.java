@@ -23,8 +23,6 @@ public class SmsController {
         smsService.sendSms(smsRequest.getTo(), smsRequest.getMessage());
 //        smsService.sendSms(toPhoneNumber, message);
     }
-    public void test(){
-    }
 
 }
 
